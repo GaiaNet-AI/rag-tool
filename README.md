@@ -43,7 +43,7 @@ Next, we wil use the following command line to create embeddings, generate and r
 
 
 ```
-pyhton3 toqdrant.py file_name.txt
+python3 toqdrant.py file_name.txt
 ```
 
 Be sure to replace `file_name.txt` with the actual name of your text file.
