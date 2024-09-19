@@ -63,6 +63,6 @@ def text2qdrant(filepath, db_name="default"):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python text2QDRANT.py filepath")
+        print("Usage: python toqdrant.py filepath")
         sys.exit(1)
     text2qdrant(sys.argv[1])
