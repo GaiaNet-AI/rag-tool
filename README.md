@@ -46,6 +46,6 @@ Next, we wil use the following command line to create embeddings, generate and r
 python3 toqdrant.py file_name.txt
 ```
 
-Be sure to replace `file_name.txt` with the actual name of your text file.
+Be sure to replace `file_name.txt` with the actual name and location of your text file.
 
-Once the process is complete, test your node by asking it a question to verify that the snapshot has been successfully updated.
+Once the process is complete, test your node by asking it a question to verify that the snapshot has been successfully updated. It's better that you can update the system prompt based on your new snapshots.
