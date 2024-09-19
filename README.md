@@ -36,11 +36,10 @@ Once your Gaia node is running smoothly, you can update the snapshot without sto
 # open the gaianet folder
 cd gaianet
 # Download the intaller script for the rag tool
-curl -sSfL 'https://github.com/0xP0/toqdrant/releases/releases/latest/download/install.sh' | bash
-
+curl -LO https://raw.githubusercontent.com/GaiaNet-AI/rag-tool/main/install.sh
 ```
 
-Next, we wil use the following command line to create embeddings, and generate, replace the snapshot.
+Next, we wil use the following command line to create embeddings, generate and replace the snapshot.
 
 
 ```
