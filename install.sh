@@ -20,4 +20,4 @@ check_curl() {
 }
 
 check_curl https://github.com/YuanTony/chemistry-assistant/raw/main/rag-embeddings/create_embeddings.wasm create_embeddings.wasm 
-check_curl https://raw.githubusercontent.com/GaiaNet-AI/rag-tool/main/toqdrant.py toqdrant.py                                                                                                                   
+check_curl https://github.com/GaiaNet-AI/rag-tool/releases/latest/download/toqdrant.py toqdrant.py                                                                                                                  
